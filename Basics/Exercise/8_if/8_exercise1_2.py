@@ -1,24 +1,14 @@
-## Exercise: Python If Condition
-# 1. Using following list of cities per country,
-#     ```
-#     india = ["mumbai", "banglore", "chennai", "delhi"]
-#     pakistan = ["lahore","karachi","islamabad"]
-#     bangladesh = ["dhaka", "khulna", "rangpur"]
-#     ```
-#Write a program that asks user to enter two cities and it tells you if they both are in same country or not. For example if I enter mumbai and chennai, it will print "Both cities are in India" but if I enter mumbai and dhaka it should print "They don't belong to same country"
-
 india = ["mumbai", "banglore", "chennai", "delhi"]
-pakistan = ["lahore", "karachi", "islamabad"]
+pakistan = ["lahore","karachi","islamabad"]
 bangladesh = ["dhaka", "khulna", "rangpur"]
 
-city1 = input("Enter city 1: ")
-city2 = input("Enter city 2: ")
-
+city1 = input("Enter the first city name: ")
+city2 = input("Enter the second city name: ")
 if city1 in india and city2 in india:
-    print("Both cities are in india")
+    print("Both cities are in India")
 elif city1 in pakistan and city2 in pakistan:
-    print("Both cities are in pakistan")
+    print("Both cities are in Pakistan")
 elif city1 in bangladesh and city2 in bangladesh:
-    print("Both cities are in bangladesh")
+    print("Both cities are in Bangladesh")
 else:
-    print("They don't belong to same country")
+    print("Both cities are not in same country")
