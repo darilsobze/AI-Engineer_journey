@@ -1,4 +1,3 @@
-from ftplib import print_line
 
 results= ["heads","tails","tails","heads","tails","heads","heads","tails","tails","tails"]
 num_heads = 0
